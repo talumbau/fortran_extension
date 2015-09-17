@@ -1,6 +1,6 @@
 from numpy.distutils.core import setup, Extension
 
-wrapper = Extension('my_wrapper', sources=['fib1.f'], libraries=['my_module'])
+wrapper = Extension('fwrapper', sources=['fib1.f'], libraries=['my_module'])
 
 setup(
     name='fortranwrap',
