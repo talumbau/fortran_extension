@@ -14,7 +14,7 @@ Cf2py depend(n) a
          ELSEIF (I.EQ.2) THEN
             A(I) = 1.0D0
          ELSE 
-            A(I) = A(I-1) + A(I-2) + 0.5D0
+            A(I) = A(I-1) + A(I-2) + 1.0D0
          ENDIF
       ENDDO
       END
